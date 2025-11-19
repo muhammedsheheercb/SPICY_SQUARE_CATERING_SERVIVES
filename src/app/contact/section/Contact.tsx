@@ -214,7 +214,7 @@ const Contact: React.FC = () => {
                     </p>
                   </div>
                   <Link
-                    href="https://wa.me/0507440148"
+                    href="https://wa.me/+971507440148"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex h-12 w-12 items-center justify-center rounded-full bg-white transition-transform duration-300 hover:scale-110"

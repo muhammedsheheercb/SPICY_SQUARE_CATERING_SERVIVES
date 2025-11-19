@@ -860,7 +860,7 @@ const MenuPage = () => {
             </a>
 
             <a
-              href="https://wa.me/0507440148"
+              href="https://wa.me/+971507440148"
               target="_blank"
               rel="noopener noreferrer"
               className="font-montserrat__alternates flex items-center gap-3 rounded-full bg-[#25D366] px-10 py-5 text-lg font-bold text-white shadow-2xl transition-all duration-300 hover:scale-110 hover:bg-[#128C7E]"

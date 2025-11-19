@@ -108,7 +108,7 @@ const Navbar = ({
           </div>
         </div>
       </div>
-      <div className="mt-4 w-full border-b-[1px] border-b-[#ffff]" />
+      {/* <div className="mt-4 w-full border-b-[1px] border-b-[#ffff]" /> */}
     </nav>
   );
 };

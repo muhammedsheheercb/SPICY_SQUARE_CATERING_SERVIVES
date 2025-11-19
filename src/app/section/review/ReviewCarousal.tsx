@@ -241,7 +241,7 @@ const ReviewsSection = () => {
             Experience authentic Indian cuisine delivered fresh to your door
           </p>
           <a
-            href="https://wa.me/0507440148"
+            href="https://wa.me/+971507440148"
             target="_blank"
             rel="noopener noreferrer"
             className="font-montserrat__alternates inline-flex items-center gap-3 rounded-full bg-[#25D366] px-10 py-5 text-lg font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:bg-[#128C7E]"

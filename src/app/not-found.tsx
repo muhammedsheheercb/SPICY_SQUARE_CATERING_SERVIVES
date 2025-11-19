@@ -135,7 +135,7 @@ const NotFound = () => {
 
             {/* WhatsApp */}
             <Link
-              href="https://wa.me/0507440148"
+              href="https://wa.me/+971507440148"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-4 rounded-xl border-2 border-[#25D366]/20 bg-gradient-to-br from-[#FFF8E7] to-[#FFE4B5] p-4 transition-all duration-300 hover:border-[#25D366] hover:shadow-lg"

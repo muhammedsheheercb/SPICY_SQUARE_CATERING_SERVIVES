@@ -281,7 +281,7 @@ const Footer = () => {
             Fresh, authentic Indian meals delivered to your doorstep
           </p>
           <a
-            href="https://wa.me/0507440148"
+            href="https://wa.me/+971507440148"
             target="_blank"
             rel="noopener noreferrer"
             className="font-montserrat__alternates inline-flex items-center gap-3 rounded-full bg-white px-8 py-4 text-base font-bold text-[#A9861B] shadow-xl transition-all duration-300 hover:scale-105 hover:bg-[#FFF8E7]"

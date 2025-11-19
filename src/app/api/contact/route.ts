@@ -350,7 +350,7 @@ Email: spicysquarecatering@gmail.com
               </ul>
               
               <center>
-                <a href="https://wa.me/0507440148" class="cta-button">
+                <a href="https://wa.me/+971507440148" class="cta-button">
                   📱 Order on WhatsApp
                 </a>
               </center>
@@ -387,7 +387,7 @@ Your message has been received and our team will review your inquiry and get bac
 
 In the meantime, you can:
 - Browse our menu and monthly mess packages
-- Order directly via WhatsApp for faster service: https://wa.me/0507440148
+- Order directly via WhatsApp for faster service: https://wa.me/+971507440148
 - Call us at 050 744 0148
 
 Visit Us:

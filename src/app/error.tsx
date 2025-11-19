@@ -86,7 +86,7 @@ const Error: React.FC<ErrorProps> = ({
           </Link>
 
           <Link
-            href={'https://wa.me/0507440148'}
+            href={'https://wa.me/+971507440148'}
             target="_blank"
             rel="noopener noreferrer"
           >
