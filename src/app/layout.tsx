@@ -11,7 +11,6 @@ import '../styles/globals.css';
 import '../styles/ham.css';
 import { cn } from '@/lib/utils';
 import Providers from './Providers';
-import CookieConsent from '@/components/CookieConsent';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://spicecatering.ae/'),
@@ -333,7 +332,6 @@ export default function RootLayout({
         )}
       >
         <Providers>{children}</Providers>
-        <CookieConsent />
       </body>
     </html>
   );
