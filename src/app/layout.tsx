@@ -12,14 +12,21 @@ import '../styles/ham.css';
 import { cn } from '@/lib/utils';
 import Providers from './Providers';
 
+// ⚠️ IMPORTANT: Update this to your actual domain once you get a custom domain
+// For now, use your Vercel URL, but prioritize getting spicesquarecatering.ae
+const SITE_URL = 'https://spicy-square-catering-servives.vercel.app';
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://spicecatering.ae/'),
-  title:
-    'Spice Catering | Authentic Indian Food Delivery in Dubai - Monthly Mess Packages',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default:
+      'Spice Square Catering | Authentic Indian Food Delivery in Dubai - Monthly Mess Packages',
+    template: '%s | Spice Square Catering Dubai',
+  },
   description:
-    'Spice Catering offers authentic Indian cuisine with monthly mess packages in Dubai. Enjoy fresh Kerala-style breakfast, lunch, and dinner delivered to your doorstep. Traditional recipes, home delivery, and affordable pricing at Dubai Investment Park 2.',
+    'Spice Square Catering offers authentic Indian cuisine with monthly mess packages in Dubai. Enjoy fresh Kerala-style breakfast, lunch, and dinner delivered to your doorstep. Traditional recipes, home delivery, and affordable pricing at Dubai Investment Park 2.',
   keywords: [
-    'Spice Catering',
+    'Spice Square Catering',
     'Indian food delivery Dubai',
     'monthly mess Dubai',
     'Kerala food Dubai',
@@ -42,28 +49,29 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title:
-      'Spice Catering Dubai | Authentic Indian Monthly Mess & Food Delivery',
+      'Spice Square Catering Dubai | Authentic Indian Monthly Mess & Food Delivery',
     description:
-      'Experience authentic Indian cuisine delivered fresh daily. Spice Catering offers monthly mess packages with traditional Kerala recipes. Fresh breakfast, lunch, and dinner. Order now for home delivery in Dubai! Starting from 180 AED/month.',
-    siteName: 'Spice Catering',
+      'Experience authentic Indian cuisine delivered fresh daily. Spice Square Catering offers monthly mess packages with traditional Kerala recipes. Fresh breakfast, lunch, and dinner. Order now for home delivery in Dubai! Starting from 180 AED/month.',
+    siteName: 'Spice Square Catering',
     images: [
       {
-        url: '/images/spice-catering-og.jpg', // Update with your actual image
+        url: `${SITE_URL}/images/spice-catering-og.jpg`,
         width: 1200,
         height: 630,
-        alt: 'Spice Catering - Authentic Indian Food Delivery in Dubai',
+        alt: 'Spice Square Catering - Authentic Indian Food Delivery in Dubai',
       },
     ],
     locale: 'en_AE',
     type: 'website',
-    url: 'https://spicecatering.ae/',
+    url: SITE_URL,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Spice Catering | Indian Food Delivery & Monthly Mess in Dubai',
+    title:
+      'Spice Square Catering | Indian Food Delivery & Monthly Mess in Dubai',
     description:
       'Authentic Indian cuisine delivered fresh daily in Dubai. Monthly mess packages with Kerala-style breakfast, lunch & dinner. Affordable pricing, home delivery. Order now!',
-    images: ['/images/spice-catering-twitter.jpg'], // Update with your actual image
+    images: [`${SITE_URL}/images/spice-catering-twitter.jpg`],
   },
   icons: [
     { rel: 'icon', url: '/images/logo.webp' },
@@ -81,7 +89,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://spicecatering.ae/',
+    canonical: SITE_URL,
   },
   other: {
     'contact:phone_number': '+971507440148',
@@ -95,14 +103,14 @@ export const metadata: Metadata = {
   },
 };
 
-// Additional structured data for local business
+// Restaurant structured data
 export const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'Restaurant',
-  name: 'Spice Catering',
-  image: 'https://spicecatering.ae/images/spice-catering-logo.jpg',
-  '@id': 'https://spicecatering.ae',
-  url: 'https://spicecatering.ae',
+  name: 'Spice Square Catering',
+  image: `${SITE_URL}/images/spice-catering-logo.jpg`,
+  '@id': SITE_URL,
+  url: SITE_URL,
   telephone: '+971507440148',
   email: 'spicysquarecatering@gmail.com',
   priceRange: '180 AED - 370 AED',
@@ -120,7 +128,7 @@ export const structuredData = {
     longitude: 55.17,
   },
   servesCuisine: ['Indian', 'Kerala', 'South Indian'],
-  menu: 'https://spicecatering.ae/menu',
+  menu: `${SITE_URL}/menu`,
   acceptsReservations: 'True',
   currenciesAccepted: 'AED',
   paymentAccepted: 'Cash, Bank Transfer',
@@ -160,10 +168,10 @@ export const structuredData = {
 export const foodEstablishmentData = {
   '@context': 'https://schema.org',
   '@type': 'FoodEstablishment',
-  name: 'Spice Catering',
+  name: 'Spice Square Catering',
   description:
     'Authentic Indian catering service offering monthly mess packages with traditional Kerala cuisine. Fresh daily preparation and home delivery in Dubai.',
-  image: 'https://spicecatering.ae/images/spice-catering-hero.jpg',
+  image: `${SITE_URL}/images/spice-catering-hero.jpg`,
   servesCuisine: 'Indian',
   address: {
     '@type': 'PostalAddress',
@@ -224,7 +232,7 @@ export const serviceData = {
   serviceType: 'Food Catering Service',
   provider: {
     '@type': 'LocalBusiness',
-    name: 'Spice Catering',
+    name: 'Spice Square Catering',
     telephone: '+971507440148',
     email: 'spicysquarecatering@gmail.com',
     address: {
@@ -277,6 +285,28 @@ export const serviceData = {
   },
 };
 
+// Organization structured data
+export const organizationData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Spice Square Catering',
+  url: SITE_URL,
+  logo: `${SITE_URL}/images/logo.webp`,
+  contactPoint: {
+    '@type': 'ContactPoint',
+    telephone: '+971507440148',
+    contactType: 'Customer Service',
+    email: 'spicysquarecatering@gmail.com',
+    areaServed: 'AE',
+    availableLanguage: ['English', 'Hindi', 'Malayalam'],
+  },
+  sameAs: [
+    'https://www.instagram.com/spicecatering',
+    'https://www.facebook.com/spicecatering',
+    'https://wa.me/971507440148',
+  ],
+};
+
 const manrope = Manrope({
   subsets: ['latin'],
   variable: '--font-manrope',
@@ -320,6 +350,29 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Structured Data for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(foodEstablishmentData),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceData) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationData),
+          }}
+        />
+      </head>
       <body
         className={cn(
           'theme-custom flex min-h-screen antialiased',

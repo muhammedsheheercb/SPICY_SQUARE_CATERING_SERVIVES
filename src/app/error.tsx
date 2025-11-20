@@ -14,7 +14,7 @@ const Error: React.FC<ErrorProps> = ({
   error,
   reset,
   title = 'Oops! Something went wrong',
-  message = "We're experiencing some technical difficulties. Our team at Spice Catering is working to fix this issue. Please try again in a moment.",
+  message = "We're experiencing some technical difficulties. Our team at Spice Square Catering is working to fix this issue. Please try again in a moment.",
 }) => {
   return (
     <div className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-b from-[#FFF8E7] to-[#FFE4B5]">
@@ -126,7 +126,8 @@ const Error: React.FC<ErrorProps> = ({
             Need Immediate Assistance?
           </h3>
           <p className="font-montserrat__alternates mb-6 text-sm text-[#666666]">
-            Contact Spice Catering directly for orders, inquiries, or support
+            Contact Spice Square Catering directly for orders, inquiries, or
+            support
           </p>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">

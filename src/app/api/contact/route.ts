@@ -93,7 +93,7 @@ export async function POST(req: Request) {
 
     // Email to business owner
     const mailOptions = {
-      from: `${process.env.EMAIL_FROM_PREFIX || 'Spice Catering'} Contact <${process.env.EMAIL_USER}>`,
+      from: `${process.env.EMAIL_FROM_PREFIX || 'Spice Square Catering'} Contact <${process.env.EMAIL_USER}>`,
       to: process.env.RECIPIENT_EMAIL || 'spicysquarecatering@gmail.com',
       subject: `New Contact Form Submission - ${fullName}`,
       html: `
@@ -186,7 +186,7 @@ export async function POST(req: Request) {
           <div class="container">
             <div class="header">
               <h1>🍛 New Contact Message</h1>
-              <p>Spice Catering - Authentic Indian Cuisine</p>
+              <p>Spice Square Catering - Authentic Indian Cuisine</p>
             </div>
             
             <div class="content">
@@ -216,11 +216,11 @@ export async function POST(req: Request) {
             </div>
             
             <div class="footer">
-              <p><strong>Spice Catering Services</strong></p>
+              <p><strong>Spice Square Catering Services</strong></p>
               <p>Warehouse 130-103, King Key Stores<br>Dubai Investment Park 2</p>
               <p>Phone: <a href="tel:0507440148">050 744 0148</a></p>
               <p>Email: <a href="mailto:spicysquarecatering@gmail.com">spicysquarecatering@gmail.com</a></p>
-              <p style="margin-top: 15px; opacity: 0.8;">© ${new Date().getFullYear()} Spice Catering. All Rights Reserved.</p>
+              <p style="margin-top: 15px; opacity: 0.8;">© ${new Date().getFullYear()} Spice Square Catering. All Rights Reserved.</p>
             </div>
           </div>
         </body>
@@ -237,7 +237,7 @@ Message:
 ${message}
 
 ---
-Spice Catering Services
+Spice Square Catering Services
 Warehouse 130-103, King Key Stores
 Dubai Investment Park 2
 Phone: 050 744 0148
@@ -250,9 +250,9 @@ Email: spicysquarecatering@gmail.com
 
     // Optional: Send confirmation email to customer
     const customerMailOptions = {
-      from: `${process.env.EMAIL_FROM_PREFIX || 'Spice Catering'} <${process.env.EMAIL_USER}>`,
+      from: `${process.env.EMAIL_FROM_PREFIX || 'Spice Square Catering'} <${process.env.EMAIL_USER}>`,
       to: email,
-      subject: 'Thank You for Contacting Spice Catering',
+      subject: 'Thank You for Contacting Spice Square Catering',
       html: `
         <!DOCTYPE html>
         <html>
@@ -335,7 +335,7 @@ Email: spicysquarecatering@gmail.com
             <div class="content">
               <p>Dear ${fullName},</p>
               
-              <p>Thank you for contacting <strong>Spice Catering</strong>! We've received your message and appreciate your interest in our authentic Indian cuisine.</p>
+              <p>Thank you for contacting <strong>Spice Square Catering</strong>! We've received your message and appreciate your interest in our authentic Indian cuisine.</p>
               
               <div class="highlight-box">
                 <p style="margin: 0; font-weight: bold; color: #A9861B;">📧 Your Message Has Been Received</p>
@@ -366,13 +366,13 @@ Email: spicysquarecatering@gmail.com
               <p style="margin-top: 25px;">We look forward to serving you with our delicious, authentic Indian meals!</p>
               
               <p style="margin-top: 20px;">Warm regards,<br>
-              <strong>The Spice Catering Team</strong></p>
+              <strong>The Spice Square Catering Team</strong></p>
             </div>
             
             <div class="footer">
-              <p><strong>Spice Catering Services</strong></p>
+              <p><strong>Spice Square Catering Services</strong></p>
               <p>Authentic Indian Cuisine • Fresh Daily Preparation • Home Delivery</p>
-              <p style="margin-top: 15px; opacity: 0.8;">© ${new Date().getFullYear()} Spice Catering. All Rights Reserved.</p>
+              <p style="margin-top: 15px; opacity: 0.8;">© ${new Date().getFullYear()} Spice Square Catering. All Rights Reserved.</p>
             </div>
           </div>
         </body>
@@ -381,7 +381,7 @@ Email: spicysquarecatering@gmail.com
       text: `
 Dear ${fullName},
 
-Thank you for contacting Spice Catering! We've received your message and appreciate your interest in our authentic Indian cuisine.
+Thank you for contacting Spice Square Catering! We've received your message and appreciate your interest in our authentic Indian cuisine.
 
 Your message has been received and our team will review your inquiry and get back to you within 24 hours.
 
@@ -400,12 +400,12 @@ Email: spicysquarecatering@gmail.com
 We look forward to serving you with our delicious, authentic Indian meals!
 
 Warm regards,
-The Spice Catering Team
+The Spice Square Catering Team
 
 ---
-Spice Catering Services
+Spice Square Catering Services
 Authentic Indian Cuisine • Fresh Daily Preparation • Home Delivery
-© ${new Date().getFullYear()} Spice Catering. All Rights Reserved.
+© ${new Date().getFullYear()} Spice Square Catering. All Rights Reserved.
       `,
     };
 

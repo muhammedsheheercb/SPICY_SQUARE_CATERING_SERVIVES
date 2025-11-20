@@ -8,7 +8,7 @@ interface LoaderProps {
 
 const Loader: React.FC<LoaderProps> = ({
   message = 'Preparing Your Authentic Meal',
-  subMessage = 'Welcome to Spice Catering - Where tradition meets taste',
+  subMessage = 'Welcome to Spice Square Catering - Where tradition meets taste',
 }) => {
   return (
     <div className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-b from-[#FFF8E7] to-[#FFE4B5]">
@@ -24,7 +24,7 @@ const Loader: React.FC<LoaderProps> = ({
         {/* Logo/Brand Name */}
         <div className="mb-8">
           <h2 className="font-milchella text-5xl text-[#A9861B] md:text-7xl">
-            Spice Catering
+            Spice Square Catering
           </h2>
           <div className="mt-2 flex items-center justify-center gap-2">
             <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#A9861B]"></div>

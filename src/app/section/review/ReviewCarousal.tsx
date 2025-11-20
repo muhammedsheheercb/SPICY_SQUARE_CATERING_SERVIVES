@@ -33,7 +33,7 @@ const ReviewsSection = () => {
     },
     {
       rating: 5,
-      text: "I've been ordering the 2-time food package for 3 months now. The quality is consistently excellent, portions are generous, and the taste is just perfect. The Friday biryani is absolutely phenomenal! Highly recommend Spice Catering.",
+      text: "I've been ordering the 2-time food package for 3 months now. The quality is consistently excellent, portions are generous, and the taste is just perfect. The Friday biryani is absolutely phenomenal! Highly recommend Spice Square Catering.",
       authorName: 'Priya Sharma',
       authorInitial: 'P',
       timeAgo: '1 month ago',

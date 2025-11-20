@@ -14,7 +14,7 @@ const Footer = () => {
               <Link href={'/'}>
                 <div className="flex flex-col items-center gap-2 md:items-start">
                   <h2 className="font-milchella text-4xl text-[#A9861B] lg:text-5xl">
-                    Spice Catering
+                    Spice Square Catering
                   </h2>
                   <p className="font-montserrat__alternates text-sm text-[#D4AF37]">
                     Authentic Indian Cuisine
@@ -63,6 +63,30 @@ const Footer = () => {
                     for Warehouse Management <br />
                     Dubai Investment Park 2
                   </Link>
+                </div>
+
+                {/* Delivery Area */}
+                <div className="flex items-start gap-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5 flex-shrink-0 text-[#D4AF37]"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"
+                    />
+                  </svg>
+                  <div className="font-montserrat__alternates text-center text-sm leading-relaxed text-[#E5D4B5] md:text-left">
+                    We Deliver to Al Quoz 1 <br />
+                    <span className="text-xs text-[#D4AF37]">
+                      and surrounding areas
+                    </span>
+                  </div>
                 </div>
 
                 {/* Phone */}
@@ -302,7 +326,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4 border-t border-[#A9861B]/20 py-6">
           <div className="flex flex-col items-center justify-center md:px-16 lg:px-32">
             <p className="font-montserrat__alternates text-xs tracking-wide text-[#E5D4B5]/70 uppercase">
-              © 2025 Spice Catering. All Rights Reserved
+              © 2025 Spice Square Catering. All Rights Reserved
             </p>
           </div>
         </div>

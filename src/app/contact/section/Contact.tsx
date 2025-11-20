@@ -130,7 +130,7 @@ const Contact: React.FC = () => {
           <div className="flex w-full flex-col gap-6 lg:w-1/2">
             <div className="space-y-6 rounded-2xl bg-white p-8 shadow-xl">
               <h2 className="font-milchella text-2xl text-[#A9861B] md:text-3xl">
-                Spice Catering Services
+                Spice Square Catering Services
               </h2>
               <p className="font-montserrat__alternates max-w-[500px] text-sm leading-relaxed text-[#666666] md:text-base">
                 Experience authentic Indian cuisine delivered fresh to your
@@ -410,8 +410,8 @@ const Contact: React.FC = () => {
                     Message Sent Successfully!
                   </h3>
                   <p className="font-montserrat__alternates mb-8 text-[#666666]">
-                    Thank you for contacting Spice Catering. We`&apos;ll get
-                    back to you within 24 hours.
+                    Thank you for contacting Spice Square Catering. We`&apos;ll
+                    get back to you within 24 hours.
                   </p>
                   <div className="flex gap-3">
                     <Button
