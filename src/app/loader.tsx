@@ -8,7 +8,7 @@ interface LoaderProps {
 
 const Loader: React.FC<LoaderProps> = ({
   message = 'Preparing Your Authentic Meal',
-  subMessage = 'Welcome to Spice Square Catering - Where tradition meets taste',
+  subMessage = 'Welcome to Spicy Square Catering - Where tradition meets taste',
 }) => {
   return (
     <div className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-b from-[#FFF8E7] to-[#FFE4B5]">
@@ -24,7 +24,7 @@ const Loader: React.FC<LoaderProps> = ({
         {/* Logo/Brand Name */}
         <div className="mb-8">
           <h2 className="font-milchella text-5xl text-[#A9861B] md:text-7xl">
-            Spice Square Catering
+            Spicy Square Catering
           </h2>
           <div className="mt-2 flex items-center justify-center gap-2">
             <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#A9861B]"></div>
@@ -35,13 +35,13 @@ const Loader: React.FC<LoaderProps> = ({
           </div>
         </div>
 
-        {/* Main Loader Animation - Indian Spice Bowl */}
+        {/* Main Loader Animation - Indian Spicy Bowl */}
         <div className="mb-12 flex justify-center">
           <div className="relative">
-            {/* Outer rotating ring - represents the spice bowl */}
+            {/* Outer rotating ring - represents the Spicy bowl */}
             <div className="h-32 w-32 animate-spin rounded-full border-4 border-transparent border-t-[#D4AF37] border-r-[#A9861B]"></div>
 
-            {/* Middle rotating ring - spice mixing */}
+            {/* Middle rotating ring - Spicy mixing */}
             <div
               className="absolute top-2 left-2 h-28 w-28 animate-spin rounded-full border-4 border-transparent border-t-[#F7931E] border-l-[#FF6B35]"
               style={{
@@ -50,9 +50,9 @@ const Loader: React.FC<LoaderProps> = ({
               }}
             ></div>
 
-            {/* Inner pulsing circle - the spice */}
+            {/* Inner pulsing circle - the Spicy */}
             <div className="absolute top-6 left-6 flex h-20 w-20 animate-pulse items-center justify-center rounded-full bg-gradient-to-br from-[#A9861B]/40 to-[#D4AF37]/40">
-              {/* Spice icon/center */}
+              {/* Spicy icon/center */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-10 w-10 animate-bounce text-[#A9861B]"
@@ -69,7 +69,7 @@ const Loader: React.FC<LoaderProps> = ({
               </svg>
             </div>
 
-            {/* Floating spice particles */}
+            {/* Floating Spicy particles */}
             <div className="absolute -top-4 left-1/2 h-2 w-2 animate-bounce rounded-full bg-[#FF6B35] delay-300"></div>
             <div className="absolute top-1/2 -left-4 h-1.5 w-1.5 animate-bounce rounded-full bg-[#D4AF37] delay-700"></div>
             <div className="absolute right-1/2 -bottom-4 h-2 w-2 animate-bounce rounded-full bg-[#C41E3A] delay-1000"></div>
@@ -87,7 +87,7 @@ const Loader: React.FC<LoaderProps> = ({
           </p>
         </div>
 
-        {/* Progress Dots - Spice colors */}
+        {/* Progress Dots - Spicy colors */}
         <div className="mb-12 flex items-center justify-center gap-2">
           <div className="h-3 w-3 animate-bounce rounded-full bg-[#A9861B]"></div>
           <div className="h-3 w-3 animate-bounce rounded-full bg-[#FF6B35] delay-150"></div>
@@ -191,7 +191,7 @@ const Loader: React.FC<LoaderProps> = ({
         </div>
       </div>
 
-      {/* Ambient Floating Elements - Spice particles */}
+      {/* Ambient Floating Elements - Spicy particles */}
       <div className="animate-float absolute top-1/4 left-12 h-2 w-2 rounded-full bg-[#A9861B]/60"></div>
       <div className="animate-float absolute top-2/3 right-20 h-1.5 w-1.5 rounded-full bg-[#FF6B35]/60 delay-1000"></div>
       <div className="animate-float absolute top-1/3 left-1/3 h-1 w-1 rounded-full bg-[#D4AF37]/60 delay-500"></div>

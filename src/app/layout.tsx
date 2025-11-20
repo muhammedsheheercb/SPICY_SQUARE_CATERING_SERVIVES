@@ -13,20 +13,20 @@ import { cn } from '@/lib/utils';
 import Providers from './Providers';
 
 // ⚠️ IMPORTANT: Update this to your actual domain once you get a custom domain
-// For now, use your Vercel URL, but prioritize getting spicesquarecatering.ae
+// For now, use your Vercel URL, but prioritize getting Spicysquarecatering.ae
 const SITE_URL = 'https://spicy-square-catering-servives.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default:
-      'Spice Square Catering | Authentic Indian Food Delivery in Dubai - Monthly Mess Packages',
-    template: '%s | Spice Square Catering Dubai',
+      'Spicy Square Catering | Authentic Indian Food Delivery in Dubai - Monthly Mess Packages',
+    template: '%s | Spicy Square Catering Dubai',
   },
   description:
-    'Spice Square Catering offers authentic Indian cuisine with monthly mess packages in Dubai. Enjoy fresh Kerala-style breakfast, lunch, and dinner delivered to your doorstep. Traditional recipes, home delivery, and affordable pricing at Dubai Investment Park 2.',
+    'Spicy Square Catering offers authentic Indian cuisine with monthly mess packages in Dubai. Enjoy fresh Kerala-style breakfast, lunch, and dinner delivered to your doorstep. Traditional recipes, home delivery, and affordable pricing at Dubai Investment Park 2.',
   keywords: [
-    'Spice Square Catering',
+    'Spicy Square Catering',
     'Indian food delivery Dubai',
     'monthly mess Dubai',
     'Kerala food Dubai',
@@ -49,16 +49,16 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title:
-      'Spice Square Catering Dubai | Authentic Indian Monthly Mess & Food Delivery',
+      'Spicy Square Catering Dubai | Authentic Indian Monthly Mess & Food Delivery',
     description:
-      'Experience authentic Indian cuisine delivered fresh daily. Spice Square Catering offers monthly mess packages with traditional Kerala recipes. Fresh breakfast, lunch, and dinner. Order now for home delivery in Dubai! Starting from 180 AED/month.',
-    siteName: 'Spice Square Catering',
+      'Experience authentic Indian cuisine delivered fresh daily. Spicy Square Catering offers monthly mess packages with traditional Kerala recipes. Fresh breakfast, lunch, and dinner. Order now for home delivery in Dubai! Starting from 180 AED/month.',
+    siteName: 'Spicy Square Catering',
     images: [
       {
-        url: `${SITE_URL}/images/spice-catering-og.jpg`,
+        url: `${SITE_URL}/images/Spicy-catering-og.jpg`,
         width: 1200,
         height: 630,
-        alt: 'Spice Square Catering - Authentic Indian Food Delivery in Dubai',
+        alt: 'Spicy Square Catering - Authentic Indian Food Delivery in Dubai',
       },
     ],
     locale: 'en_AE',
@@ -68,10 +68,10 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title:
-      'Spice Square Catering | Indian Food Delivery & Monthly Mess in Dubai',
+      'Spicy Square Catering | Indian Food Delivery & Monthly Mess in Dubai',
     description:
       'Authentic Indian cuisine delivered fresh daily in Dubai. Monthly mess packages with Kerala-style breakfast, lunch & dinner. Affordable pricing, home delivery. Order now!',
-    images: [`${SITE_URL}/images/spice-catering-twitter.jpg`],
+    images: [`${SITE_URL}/images/Spicy-catering-twitter.jpg`],
   },
   icons: [
     { rel: 'icon', url: '/images/logo.webp' },
@@ -107,8 +107,8 @@ export const metadata: Metadata = {
 export const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'Restaurant',
-  name: 'Spice Square Catering',
-  image: `${SITE_URL}/images/spice-catering-logo.jpg`,
+  name: 'Spicy Square Catering',
+  image: `${SITE_URL}/images/Spicy-catering-logo.jpg`,
   '@id': SITE_URL,
   url: SITE_URL,
   telephone: '+971507440148',
@@ -158,8 +158,8 @@ export const structuredData = {
     reviewCount: '500',
   },
   sameAs: [
-    'https://www.instagram.com/spicecatering',
-    'https://www.facebook.com/spicecatering',
+    'https://www.instagram.com/Spicycatering',
+    'https://www.facebook.com/Spicycatering',
     'https://wa.me/971507440148',
   ],
 };
@@ -168,10 +168,10 @@ export const structuredData = {
 export const foodEstablishmentData = {
   '@context': 'https://schema.org',
   '@type': 'FoodEstablishment',
-  name: 'Spice Square Catering',
+  name: 'Spicy Square Catering',
   description:
     'Authentic Indian catering service offering monthly mess packages with traditional Kerala cuisine. Fresh daily preparation and home delivery in Dubai.',
-  image: `${SITE_URL}/images/spice-catering-hero.jpg`,
+  image: `${SITE_URL}/images/Spicy-catering-hero.jpg`,
   servesCuisine: 'Indian',
   address: {
     '@type': 'PostalAddress',
@@ -232,7 +232,7 @@ export const serviceData = {
   serviceType: 'Food Catering Service',
   provider: {
     '@type': 'LocalBusiness',
-    name: 'Spice Square Catering',
+    name: 'Spicy Square Catering',
     telephone: '+971507440148',
     email: 'spicysquarecatering@gmail.com',
     address: {
@@ -289,7 +289,7 @@ export const serviceData = {
 export const organizationData = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'Spice Square Catering',
+  name: 'Spicy Square Catering',
   url: SITE_URL,
   logo: `${SITE_URL}/images/logo.webp`,
   contactPoint: {
@@ -301,8 +301,8 @@ export const organizationData = {
     availableLanguage: ['English', 'Hindi', 'Malayalam'],
   },
   sameAs: [
-    'https://www.instagram.com/spicecatering',
-    'https://www.facebook.com/spicecatering',
+    'https://www.instagram.com/Spicycatering',
+    'https://www.facebook.com/Spicycatering',
     'https://wa.me/971507440148',
   ],
 };

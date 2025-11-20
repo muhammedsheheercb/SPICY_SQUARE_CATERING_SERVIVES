@@ -335,7 +335,7 @@ const MenuSection = () => {
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             {/* Download PDF Button */}
             <a
-              href="/pdf/spice_catering.pdf"
+              href="/pdf/Spicy_catering.pdf"
               target="_blank"
               className="font-montserrat__alternates flex items-center gap-3 rounded-full bg-white px-8 py-4 text-lg font-bold text-[#A9861B] shadow-lg transition-all duration-300 hover:scale-105 hover:bg-[#FFF8E7] hover:shadow-xl"
             >

@@ -838,7 +838,7 @@ const MenuPage = () => {
 
           <div className="flex flex-col items-center justify-center gap-6 sm:flex-row">
             <a
-              href="/pdf/spice_catering.pdf"
+              href="/pdf/Spicy_catering.pdf"
               target="_blank"
               className="font-montserrat__alternates flex items-center gap-3 rounded-full bg-white px-10 py-5 text-lg font-bold text-[#A9861B] shadow-2xl transition-all duration-300 hover:scale-110 hover:bg-[#FFF8E7]"
             >
@@ -976,7 +976,7 @@ const MenuPage = () => {
                 Authentic Recipes
               </h3>
               <p className="font-montserrat__alternates text-[#666666]">
-                Traditional Indian recipes prepared with authentic spices and
+                Traditional Indian recipes prepared with authentic Spicys and
                 techniques
               </p>
             </div>

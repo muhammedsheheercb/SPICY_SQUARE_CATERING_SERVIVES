@@ -15,13 +15,13 @@ const NotFound = () => {
       </div>
 
       <div className="relative z-10 mx-auto px-6 text-center">
-        {/* 404 Number with Spice Bowl Icon */}
+        {/* 404 Number with Spicy Bowl Icon */}
         <div className="mb-8">
           <div className="relative inline-block">
             <h1 className="bg-gradient-to-r from-[#A9861B] via-[#FF6B35] to-[#A9861B] bg-clip-text text-9xl leading-none font-bold text-transparent md:text-[12rem]">
               404
             </h1>
-            {/* Spice Bowl Icon in the middle 0 */}
+            {/* Spicy Bowl Icon in the middle 0 */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +201,7 @@ const NotFound = () => {
         </div>
       </div>
 
-      {/* Floating Spice Particles */}
+      {/* Floating Spicy Particles */}
       <div className="absolute top-1/4 left-10 h-2 w-2 animate-bounce rounded-full bg-[#A9861B] delay-1000"></div>
       <div className="absolute top-3/4 right-20 h-1 w-1 animate-bounce rounded-full bg-[#FF6B35] delay-500"></div>
       <div className="absolute top-1/2 left-1/4 h-1.5 w-1.5 animate-bounce rounded-full bg-[#D4AF37] delay-700"></div>

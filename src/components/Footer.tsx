@@ -14,7 +14,7 @@ const Footer = () => {
               <Link href={'/'}>
                 <div className="flex flex-col items-center gap-2 md:items-start">
                   <h2 className="font-milchella text-4xl text-[#A9861B] lg:text-5xl">
-                    Spice Square Catering
+                    Spicy Square Catering
                   </h2>
                   <p className="font-montserrat__alternates text-sm text-[#D4AF37]">
                     Authentic Indian Cuisine
@@ -326,7 +326,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4 border-t border-[#A9861B]/20 py-6">
           <div className="flex flex-col items-center justify-center md:px-16 lg:px-32">
             <p className="font-montserrat__alternates text-xs tracking-wide text-[#E5D4B5]/70 uppercase">
-              © 2025 Spice Square Catering. All Rights Reserved
+              © 2025 Spicy Square Catering. All Rights Reserved
             </p>
           </div>
         </div>
