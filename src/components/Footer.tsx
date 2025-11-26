@@ -55,9 +55,7 @@ const Footer = () => {
                   <Link
                     className="font-montserrat__alternates text-center text-sm leading-relaxed text-[#E5D4B5] transition-colors hover:text-[#D4AF37] md:text-left"
                     target="_blank"
-                    href={
-                      'https://maps.google.com/?q=Warehouse+130-103+Dubai+Investment+Park+2'
-                    }
+                    href={'https://share.google/6ZdHbLBwu3MQerElm'}
                   >
                     Warehouse 130-103, King Key Stores <br />
                     for Warehouse Management <br />

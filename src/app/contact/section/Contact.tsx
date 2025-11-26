@@ -190,9 +190,7 @@ const Contact: React.FC = () => {
                   </h3>
                   <Link
                     target="_blank"
-                    href={
-                      'https://maps.google.com/?q=Warehouse+130-103+Dubai+Investment+Park+2'
-                    }
+                    href={'https://share.google/6ZdHbLBwu3MQerElm'}
                     className="font-montserrat__alternates text-sm leading-relaxed text-[#373737] transition-colors hover:text-[#C41E3A]"
                   >
                     Warehouse 130-103, King Key Stores <br />
@@ -385,7 +383,7 @@ const Contact: React.FC = () => {
           </div>
           <div className="overflow-hidden rounded-2xl border-2 border-[#A9861B]/20 shadow-2xl">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4534.821369020206!2d55.193757376111776!3d24.981238340412673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f73d657da0b6b%3A0x95178da2ebd18997!2sWarehouse%20No.%204!5e1!3m2!1sen!2sus!4v1763581221517!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4535.1052035689245!2d55.194926676111834!3d24.973540140722037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f73279b5397ef%3A0xd20e8b5bf3e1984e!2sSpicy%20Square%20Catering%20Services!5e1!3m2!1sen!2sin!4v1764136610890!5m2!1sen!2sin"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
