@@ -94,7 +94,7 @@ export async function POST(req: Request) {
     // Email to business owner
     const mailOptions = {
       from: `${process.env.EMAIL_FROM_PREFIX || 'Spicy Square Catering'} Contact <${process.env.EMAIL_USER}>`,
-      to: process.env.RECIPIENT_EMAIL || 'spicysquarecatering@gmail.com',
+      to: process.env.RECIPIENT_EMAIL || 'sq@spicysquare.in',
       subject: `New Contact Form Submission - ${fullName}`,
       html: `
         <!DOCTYPE html>
@@ -219,7 +219,7 @@ export async function POST(req: Request) {
               <p><strong>Spicy Square Catering Services</strong></p>
               <p>Warehouse 130-103, King Key Stores<br>Dubai Investment Park 2</p>
               <p>Phone: <a href="tel:0507440148">050 744 0148</a></p>
-              <p>Email: <a href="mailto:spicysquarecatering@gmail.com">spicysquarecatering@gmail.com</a></p>
+              <p>Email: <a href="mailto:sq@spicysquare.in">sq@spicysquare.in</a></p>
               <p style="margin-top: 15px; opacity: 0.8;">© ${new Date().getFullYear()} Spicy Square Catering. All Rights Reserved.</p>
             </div>
           </div>
@@ -241,7 +241,7 @@ Spicy Square Catering Services
 Warehouse 130-103, King Key Stores
 Dubai Investment Park 2
 Phone: 050 744 0148
-Email: spicysquarecatering@gmail.com
+Email: sq@spicysquare.in
       `,
     };
 
@@ -360,7 +360,7 @@ Email: spicysquarecatering@gmail.com
                 <p style="margin: 0;">Warehouse 130-103, King Key Stores<br>
                 Dubai Investment Park 2</p>
                 <p style="margin: 15px 0 0 0;"><strong>Phone:</strong> 050 744 0148<br>
-                <strong>Email:</strong> spicysquarecatering@gmail.com</p>
+                <strong>Email:</strong> sq@spicysquare.in</p>
               </div>
               
               <p style="margin-top: 25px;">We look forward to serving you with our delicious, authentic Indian meals!</p>
@@ -395,7 +395,7 @@ Warehouse 130-103, King Key Stores
 Dubai Investment Park 2
 
 Phone: 050 744 0148
-Email: spicysquarecatering@gmail.com
+Email: sq@spicysquare.in
 
 We look forward to serving you with our delicious, authentic Indian meals!
 

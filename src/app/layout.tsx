@@ -14,7 +14,7 @@ import Providers from './Providers';
 
 // ⚠️ IMPORTANT: Update this to your actual domain once you get a custom domain
 // For now, use your Vercel URL, but prioritize getting Spicysquarecatering.ae
-const SITE_URL = 'https://spicy-square-catering-servives.vercel.app';
+const SITE_URL = 'https://www.spicysquare.in/';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
   },
   other: {
     'contact:phone_number': '+971507440148',
-    'contact:email': 'spicysquarecatering@gmail.com',
+    'contact:email': 'sq@spicysquare.in',
     'business:contact_data:street_address':
       'Warehouse 130-103, King Key Stores, Dubai Investment Park 2',
     'business:contact_data:locality': 'Dubai',
@@ -112,7 +112,7 @@ export const structuredData = {
   '@id': SITE_URL,
   url: SITE_URL,
   telephone: '+971507440148',
-  email: 'spicysquarecatering@gmail.com',
+  email: 'sq@spicysquare.in',
   priceRange: '180 AED - 370 AED',
   address: {
     '@type': 'PostalAddress',
@@ -180,7 +180,7 @@ export const foodEstablishmentData = {
     addressCountry: 'AE',
   },
   telephone: '+971507440148',
-  email: 'spicysquarecatering@gmail.com',
+  email: 'sq@spicysquare.in',
   priceRange: 'AED 180-370',
   hasMenu: {
     '@type': 'Menu',
@@ -234,7 +234,7 @@ export const serviceData = {
     '@type': 'LocalBusiness',
     name: 'Spicy Square Catering',
     telephone: '+971507440148',
-    email: 'spicysquarecatering@gmail.com',
+    email: 'sq@spicysquare.in',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Warehouse 130-103, Dubai Investment Park 2',
@@ -296,7 +296,7 @@ export const organizationData = {
     '@type': 'ContactPoint',
     telephone: '+971507440148',
     contactType: 'Customer Service',
-    email: 'spicysquarecatering@gmail.com',
+    email: 'sq@spicysquare.in',
     areaServed: 'AE',
     availableLanguage: ['English', 'Hindi', 'Malayalam'],
   },

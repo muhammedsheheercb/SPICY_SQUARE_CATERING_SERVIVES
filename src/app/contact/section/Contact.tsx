@@ -171,10 +171,10 @@ const Contact: React.FC = () => {
                     Email Us
                   </h3>
                   <Link
-                    href="mailto:spicysquarecatering@gmail.com"
+                    href="mailto:sq@spicysquare.in"
                     className="font-montserrat__alternates text-sm text-[#373737] transition-colors hover:text-[#FF6B35] md:text-base"
                   >
-                    spicysquarecatering@gmail.com
+                    sq@spicysquare.in
                   </Link>
                 </div>
               </div>

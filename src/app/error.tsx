@@ -151,7 +151,7 @@ const Error: React.FC<ErrorProps> = ({
 
             {/* Email */}
             <Link
-              href="mailto:spicysquarecatering@gmail.com"
+              href="mailto:sq@spicysquare.in"
               className="group flex items-center gap-4 rounded-xl border-2 border-[#FF6B35]/20 bg-gradient-to-br from-[#FFF8E7] to-[#FFE4B5] p-4 transition-all duration-300 hover:border-[#FF6B35] hover:shadow-lg"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-[#FF6B35] to-[#F7931E]">
@@ -175,7 +175,7 @@ const Error: React.FC<ErrorProps> = ({
                   Email Us
                 </p>
                 <p className="font-montserrat__alternates text-xs font-bold text-[#373737] md:text-sm">
-                  spicysquarecatering@gmail.com
+                  sq@spicysquare.in
                 </p>
               </div>
             </Link>

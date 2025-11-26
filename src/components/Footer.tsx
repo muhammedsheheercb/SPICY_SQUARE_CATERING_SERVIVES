@@ -129,9 +129,9 @@ const Footer = () => {
                   </svg>
                   <Link
                     className="font-montserrat__alternates text-sm text-[#E5D4B5] transition-colors hover:text-[#D4AF37]"
-                    href={'mailto:spicysquarecatering@gmail.com'}
+                    href={'mailto:sq@spicysquare.in'}
                   >
-                    spicysquarecatering@gmail.com
+                    sq@spicysquare.in
                   </Link>
                 </div>
               </div>
